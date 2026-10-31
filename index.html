@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Essence</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<h1 class="logo">ESSENCE</h1>
+<nav id="menu"><a href="index.html">Home</a><a href="catalog.html">Catalog</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+<button id="theme-btn">Night mode</button>
+</header>
+<main>
+<section class="hero">
+<h2 data-key="title">Welcome to Essence</h2>
+<p data-key="text">Every scent tells a story. Find yours.</p>
+<a class="btn" href="catalog.html" data-key="btn">Go to catalog</a>
+<p><select id="lang-select">
+<option value="en">English</option>
+<option value="ru">Русский</option>
+<option value="kk">Қазақша</option>
+</select></p>
+</section>
+<section class="box">
+<h2 id="greeting">Hello!</h2>
+<form id="name-form">
+<input type="text" id="name-input" placeholder="Enter your name">
+<button type="submit">Say hello</button>
+</form>
+</section>
+<br>
+<section class="box">
+<h2>Store time</h2>
+<button id="time-btn">Show current time</button>
+<p id="time-output"></p>
+</section>
+</main>
+<footer>Essence Perfume Shop - Astana, 2026</footer>
+<script src="js/sound.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/greeting.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/language.js"></script>
+</body>
+</html>
